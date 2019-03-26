@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Vigenere Cipher Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1><p>Welcome to the Vigenère Cipher Generator!</p></h1>
+    </header>
+    <section>
+        <h2><p>Please press your message here</p></h2>
+        <input type="text" id="msg" name="message" placeholder="">
+        <h2><p>Press the key word</p></h2>
+        <input type="text" id="shift" value="Shift">
+        <br/>
+        <br/>
+        <button id="btn" onclick="encrypt()">Encrypt</button>
+        <br/>
+        <h2>Encrypted Message</h2>
+        <div id="output">Message</div>
+    </section>
+    <script src="script.js"></script>
+</body>

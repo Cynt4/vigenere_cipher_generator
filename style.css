@@ -1,0 +1,59 @@
+body {
+    background-color: violet;
+    margin: 0;
+  }
+  header {
+    background-color: #661100;
+    padding: 0.5rem 0;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  section {
+    background-color: #771100;
+    margin: auto;
+    font-size: 1.2rem;
+    padding: 1rem 0 4rem;
+    text-align: center;
+  }
+  h1, h2 {
+    color: #ee2211;
+  }
+  #msg {
+    text-align: center;
+    display: table;
+    margin: auto;
+    height: 2rem;
+    width: 40rem;
+  }
+  #shift {
+    height: 2rem;
+    width: 30rem;
+    text-align:center;
+  }
+  button {
+    width: 7rem;
+    height: 2.5rem;
+  }
+  #output {
+    background-color: white;
+    margin: auto;
+    height: 2.6rem;
+    width: 40rem;
+    padding-top: 1rem;
+  }
+  @media screen and (max-width: 700px) {
+    #msg {
+      max-width:20rem;
+    }
+    #shift {
+      max-width:20rem;
+    }
+    #output {
+      max-width:20rem;
+    }
+    h1 {
+      font-size: 1.8rem;
+    }
+    h2 {
+      font-size: 1.4rem;
+    }
